@@ -13,6 +13,9 @@ align-items: center;
 justify-content: center;
 gap:32px;
 
+input{
+    cursor: pointer;
+}
 
 header {
     display: flex;
@@ -62,6 +65,11 @@ header > #releaseDate{
     color: white;
     font-size: 18px;
     text-align: center;
+}
+
+video{
+    width: 320px;
+    height: 320px;
 }
 
 `
